@@ -1,0 +1,13 @@
+IP Address of Master  192.168.5.11
+IP Address of worker-1 192.168.5.21
+IP Address of worker-2 192.168.5.22
+
+1. if you want to use these machine directly from command prompt, then go to vagrant folder
+   cd VirtualMachineSetup/vagrant
+   vagrant ssh master-1
+   vagrant ssh worker-1
+   vagrant ssh worker-2
+2. To Connect with Mobaxterm
+   1. Enter the IP address in session
+   2. username is vagran
+   3. private key is available in VirtualMachineSetup\vagrant\.vagrant\machines
